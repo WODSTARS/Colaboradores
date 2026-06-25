@@ -1,0 +1,73 @@
+body{
+  background:#000;
+  color:#fff;
+  font-family:sans-serif;
+  margin:0;
+}
+
+.pantalla{
+  display:none;
+}
+
+.pantalla.activa{
+  display:block;
+}
+
+.card{
+  max-width:350px;
+  margin:120px auto;
+  background:#111;
+  padding:25px;
+  border-radius:12px;
+}
+
+.card input,
+.card button{
+  width:100%;
+  padding:10px;
+  margin-top:10px;
+  box-sizing:border-box;
+}
+
+.contenedor{
+  max-width:1000px;
+  margin:30px auto;
+  background:#111;
+  padding:20px;
+  border-radius:12px;
+}
+
+.controles{
+  display:flex;
+  gap:10px;
+  margin-bottom:20px;
+}
+
+select, button{
+  padding:10px;
+}
+
+table{
+  width:100%;
+  border-collapse:collapse;
+  margin-top:15px;
+}
+
+th, td{
+  border:1px solid #333;
+  padding:10px;
+  text-align:center;
+}
+
+input.score{
+  width:90%;
+  padding:6px;
+}
+
+.calcular{
+  margin-top:15px;
+}
+
+#error{
+  color:red;
+}
